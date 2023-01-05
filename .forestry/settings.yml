@@ -16,7 +16,9 @@ sections:
   label: Docs
   create: documents
   match: "*.md"
+  new_doc_ext: ".md"
   templates:
+  - blog-post
   - page
 - type: directory
   path: blog
